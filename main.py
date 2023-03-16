@@ -3,7 +3,7 @@ import shutil
 import os
 
 if sys.argv[-1] == "clean":
-    for i in ["build", "dist", "funcbygpt.egg-info", "files"]:
+    for i in ["build", "dist", "funcbygpt.egg-info"]:
         try:
             shutil.rmtree(i)
         except FileNotFoundError:
