@@ -6,7 +6,7 @@ with codecs.open("README.md", "r", "utf-8") as f:
 
 setup(
     name='funcbygpt',
-    version='0.0.1',
+    version='0.0.2',
     description='tell the function what to do and gpt will write the code',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -19,6 +19,9 @@ setup(
         'python-dotenv==0.21.1',
     ],
     keywords=[
+        "gpt",
+        "openai",
+        "wrapper",
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
